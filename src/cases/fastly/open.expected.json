@@ -1,11 +1,9 @@
 {
-  "id": "",
   "level": "ERROR",
   "summary": "[FIRING] bandwidth high on critical stats",
   "body": "bandwidth threshold breached",
-  "annotations": {},
+  "status": "OPEN",
   "idempotency_key": "079435f5582b598052a9de1f9dca68cc",
-  "images": [],
   "links": [
     {
       "href": "https://api.fastly.com/alerts/definitions/6adIMwmjtc8vIIfDK0roFx",
@@ -23,8 +21,5 @@
       "href": "https://manage.fastly.com/observability/alerts/history/6adIMwmjtc8vIIfDK0roFx?id=nj4GQJmw6LcCUCeiTeMth",
       "text": "History UI"
     }
-  ],
-  "tags": [],
-  "attachments": [],
-  "received_at": "2024-11-08T00:21:40.000+00:00"
+  ]
 }

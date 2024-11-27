@@ -12,7 +12,7 @@ function transpose(input) {
   const signal = {
     summary: payload?.title || "Alert from Fastly Observability",
     body: payload?.description || "No body provided",
-    level: 2,
+    level: "ERROR",
     links: [
       { href: payload.definition_api, text: "Definition API" },
       { href: payload.definition_ui, text: "Definition UI" },
