@@ -1,8 +1,8 @@
 {
-  "id": "",
   "level": "FATAL",
   "summary": "[critical] DISK at 99% on machine prod-datapipe03.example.com",
   "body": "Alert from prod-datapipe03.example.com: DISK at 99% on machine prod-datapipe03.example.com",
+  "status": "OPEN",
   "annotations": {
     "events.pagerduty.com/v2/payload_severity": "critical",
     "events.pagerduty.com/v2/custom_details/free space": "1%",
@@ -32,8 +32,5 @@
       "href": "https://monitoring.service.com",
       "text": "Sample Monitoring Service"
     }
-  ],
-  "tags": [],
-  "attachments": [],
-  "received_at": "2024-11-08T00:44:21.000+00:00"
+  ]
 }

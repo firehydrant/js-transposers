@@ -30,7 +30,7 @@ describe.each(transposers)('%s', (transposer) => {
   let cases = transposer.cases;
 
   for (const testCase of cases) {
-    it(`correctly transposes ${testCase} example`, async () => {
+    it(`correctly transposes ${testCase} case`, async () => {
       // Get the transposer file and load it
       let file = `./src/${name}.js`;
       let { transpose } = await require(file);

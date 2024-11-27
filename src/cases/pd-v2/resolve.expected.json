@@ -1,8 +1,8 @@
 {
-  "id": "",
   "level": "INFO",
   "summary": "resolve for srv01/mysql",
   "body": "resolve for srv01/mysql",
+  "status": "CLOSED",
   "annotations": {
     "events.pagerduty.com/v2/payload_severity": "",
     "events.pagerduty.com/v2/payload_class": "",
@@ -13,10 +13,7 @@
     "events.pagerduty.com/v2/dedup_key": "srv01/mysql",
     "events.pagerduty.com/v2/payload_component": ""
   },
-  "idempotency_key": "srv01/mysql",
   "images": [],
   "links": [],
-  "tags": [],
-  "attachments": [],
-  "received_at": "2024-11-08T01:01:39.000+00:00"
+  "idempotency_key": "srv01/mysql"
 }

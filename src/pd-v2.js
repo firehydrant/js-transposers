@@ -7,17 +7,17 @@ function severityToLevel(severity) {
   if (severity) {
     switch (severity.toLowerCase()) {
       case 'critical':
-        return 3;
+        return 'FATAL';
       case 'error':
-        return 2;
+        return 'ERROR';
       case 'warning':
-        return 1;
+        return 'WARN';
       default:
-        return 0;
+        return 'INFO';
     }
   }
 
-  return 0;
+  return 'INFO';
 }
 
 /**
