@@ -4,9 +4,9 @@
  * Map conviva levels to FH equivalents
  */
 const levels = {
-  "info": 0,
-  "warning": 1,
-  "critical": 2 
+  info: 'INFO',
+  warning: 'WARN',
+  critical: 'ERROR' 
 };
 
 /**
