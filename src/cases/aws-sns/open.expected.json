@@ -1,5 +1,4 @@
 {
-  "id": "",
   "level": "INFO",
   "summary": "This is the subject/summary of the notification from SNS",
   "body": "This is the message body/summary of the notification from SNS",
@@ -16,7 +15,6 @@
     "sns.amazonaws.com/MessageAttributes/ExampleStringArrayAttribute": "[\"ExampleValue1\", \"ExampleValue2\"]"
   },
   "idempotency_key": "f3da1149-e706-5099-8f29-4e5894d7d7dc",
-  "images": [],
   "links": [
     {
       "href": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-12345examplecert.pem",
@@ -26,8 +24,5 @@
       "href": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:1234567890:AcmeCompany:b6788449-25a1-42aa-b381-927497676e0e",
       "text": "Unsubscribe URL for SNS Topic"
     }
-  ],
-  "tags": [],
-  "attachments": [],
-  "received_at": "2024-11-08T00:16:08.000+00:00"
+  ]
 }

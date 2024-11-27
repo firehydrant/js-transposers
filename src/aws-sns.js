@@ -22,7 +22,8 @@ function transpose(input) {
         href: payload.SigningCertURL,
         text: 'AWS SNS Signing Cert URL'
       }
-    ]
+    ],
+    level: 'INFO'
   };
 
   if (payload.Type === 'SubscriptionConfirmation') {

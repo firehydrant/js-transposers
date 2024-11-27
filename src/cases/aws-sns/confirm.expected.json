@@ -1,5 +1,4 @@
 {
-  "id": "",
   "level": "INFO",
   "summary": "SubscriptionConfirmation from AWS SNS",
   "body": "You have chosen to subscribe to the topic arn:aws:sns:us-east-1:1234567890:AcmeCompany.\nTo confirm the subscription, visit the SubscribeURL included in this message.",
@@ -12,7 +11,6 @@
     "sns.amazonaws.com/Signature": "12345examplesignature"
   },
   "idempotency_key": "41d7f450-791a-480b-b55d-557f27f606dc",
-  "images": [],
   "links": [
     {
       "href": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-12345examplecert.pem",
@@ -22,8 +20,5 @@
       "href": "https://sns.us-east-1.amazonaws.com/?Action=ConfirmSubscription&TopicArn=arn:aws:sns:us-east-1:1234567890:AcmeCompany&Token=12345exampletoken",
       "text": "Subscribe URL for SNS Topic"
     }
-  ],
-  "tags": [],
-  "attachments": [],
-  "received_at": "2024-11-08T00:15:29.000+00:00"
+  ]
 }
