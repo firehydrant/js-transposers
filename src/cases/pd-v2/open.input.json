@@ -1,0 +1,34 @@
+{
+  "links": [
+    {
+      "href": "http://pagerduty.example.com",
+      "text": "An example link."
+    }
+  ],
+  "client": "Sample Monitoring Service",
+  "images": [
+    {
+      "alt": "An example link with an image",
+      "src": "https://chart.googleapis.com/chart?chs=600x400&chd=t:6,2,9,5,2,5,7,4,8,2,1&cht=lc&chds=a&chxt=y&chm=D,0033FF,0,0,5,1",
+      "href": "https://google.com"
+    }
+  ],
+  "payload": {
+    "class": "disk",
+    "group": "prod-datapipe",
+    "source": "prod-datapipe03.example.com",
+    "summary": "DISK at 99% on machine prod-datapipe03.example.com",
+    "severity": "critical",
+    "component": "mysql",
+    "timestamp": "2015-07-17T08:42:58.315+0000",
+    "custom_details": {
+      "load avg": 0.75,
+      "ping time": "1500ms",
+      "free space": "1%"
+    }
+  },
+  "dedup_key": "srv01/mysql",
+  "client_url": "https://monitoring.service.com",
+  "routing_key": "e93facc04764012d7bfb002500d5d1a6",
+  "event_action": "trigger"
+}

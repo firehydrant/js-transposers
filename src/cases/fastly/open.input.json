@@ -1,0 +1,11 @@
+{
+  "start": "2024-10-17T14:47:00Z",
+  "title": "[FIRING] bandwidth high on critical stats",
+  "version": "v1",
+  "triggered": true,
+  "history_ui": "https://manage.fastly.com/observability/alerts/history/6adIMwmjtc8vIIfDK0roFx?id=nj4GQJmw6LcCUCeiTeMth",
+  "description": "bandwidth threshold breached",
+  "history_api": "https://api.fastly.com/alerts/history?definition_id=6adIMwmjtc8vIIfDK0roFx&after=2024-10-17T14:47:00Z&before=2024-10-17T14:47:00Z",
+  "definition_ui": "https://manage.fastly.com/observability/alerts/definitions/6adIMwmjtc8vIIfDK0roFx/edit",
+  "definition_api": "https://api.fastly.com/alerts/definitions/6adIMwmjtc8vIIfDK0roFx"
+}

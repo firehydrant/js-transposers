@@ -1,0 +1,34 @@
+{
+  "id": "",
+  "level": "INFO",
+  "summary": "[INFO] Average Payload Time on iOS Native Player and iOS",
+  "body": "A info-level alert has been triggered on Conviva: Average Payload Time on iOS Native Player and iOS.\n- Alert Source: AI Alert\n- Account Name: Test\n- Impacted Unique Devices: 1\n- Metric: Average Payload Time\n- Severity: info\n- Root Cause: iOS Native Player and iOS\n\n[View Diagnostic Report](https://pulse.conviva.com/alerts/1457888888)",
+  "annotations": {
+    "conviva.com/alert_time": "02:45 Jan 18, 1970 PST",
+    "conviva.com/account_name": "Test",
+    "conviva.com/cumulative_impacted_unique_devices": "1",
+    "conviva.com/metric_name": "Average Payload Time",
+    "conviva.com/plays": "",
+    "conviva.com/attempts": "",
+    "conviva.com/custom_fields/runbook_url": "http://test.com",
+    "conviva.com/version": "1.0.0",
+    "conviva.com/severity": "info",
+    "conviva.com/value": "15 sec",
+    "conviva.com/alert_source": "AI Alert",
+    "conviva.com/source": "Conviva",
+    "conviva.com/active_plays": "",
+    "conviva.com/event_id": "1457888888",
+    "conviva.com/root_cause": "iOS Native Player and iOS"
+  },
+  "idempotency_key": "1457888888",
+  "images": [],
+  "links": [
+    {
+      "href": "https://pulse.conviva.com/alerts/1457888888",
+      "text": "Diagnostic Report URL"
+    }
+  ],
+  "tags": [],
+  "attachments": [],
+  "received_at": "2024-11-08T00:18:16.000+00:00"
+}

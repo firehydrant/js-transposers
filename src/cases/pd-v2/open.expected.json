@@ -1,0 +1,39 @@
+{
+  "id": "",
+  "level": "FATAL",
+  "summary": "[critical] DISK at 99% on machine prod-datapipe03.example.com",
+  "body": "Alert from prod-datapipe03.example.com: DISK at 99% on machine prod-datapipe03.example.com",
+  "annotations": {
+    "events.pagerduty.com/v2/payload_severity": "critical",
+    "events.pagerduty.com/v2/custom_details/free space": "1%",
+    "events.pagerduty.com/v2/payload_class": "disk",
+    "events.pagerduty.com/v2/routing_key": "e93facc04764012d7bfb002500d5d1a6",
+    "events.pagerduty.com/v2/custom_details/ping time": "1500ms",
+    "events.pagerduty.com/v2/custom_details/load avg": "0.75",
+    "events.pagerduty.com/v2/payload_group": "prod-datapipe",
+    "events.pagerduty.com/v2/payload_source": "prod-datapipe03.example.com",
+    "events.pagerduty.com/v2/event_action": "trigger",
+    "events.pagerduty.com/v2/dedup_key": "srv01/mysql",
+    "events.pagerduty.com/v2/payload_component": "mysql"
+  },
+  "idempotency_key": "srv01/mysql",
+  "images": [
+    {
+      "src": "https://chart.googleapis.com/chart?chs=600x400&chd=t:6,2,9,5,2,5,7,4,8,2,1&cht=lc&chds=a&chxt=y&chm=D,0033FF,0,0,5,1",
+      "alt": "An example link with an image"
+    }
+  ],
+  "links": [
+    {
+      "href": "http://pagerduty.example.com",
+      "text": "An example link."
+    },
+    {
+      "href": "https://monitoring.service.com",
+      "text": "Sample Monitoring Service"
+    }
+  ],
+  "tags": [],
+  "attachments": [],
+  "received_at": "2024-11-08T00:44:21.000+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "version": "1.2",
+  "incident": {
+    "url": "https://console.cloud.google.com/monitoring/alerting/incidents/0.lxfiw61fsv7p?project=internal-project",
+    "state": "open",
+    "metric": {
+      "type": "compute.googleapis.com/instance/cpu/utilization",
+      "labels": {
+        "instance_name": "the name of the VM instance"
+      },
+      "displayName": "CPU utilization"
+    },
+    "summary": "CPU utilization for internal-project gke-cluster-1-16-default-pool-e2df4cbd-dgp3 with metric labels {instance_name=gke-cluster-1-default-pool-e2df4cbd-dgp3} and system labels {state=ACTIVE} is above the threshold of 0.9 with a value of 0.95.",
+    "ended_at": 1577877071,
+    "metadata": {
+      "user_labels": {
+        "labelkey": "labelvalue"
+      },
+      "system_labels": {
+        "labelkey": "labelvalue"
+      }
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-central1-c",
+        "project_id": "internal-project",
+        "instance_id": "11223344"
+      }
+    },
+    "severity": "Critical",
+    "condition": {
+      "name": "projects/internal-project/alertPolicies/1234567890123456789/conditions/1234567890123456789",
+      "displayName": "VM Instance - CPU utilization [MAX]",
+      "conditionThreshold": {
+        "filter": "metric.type=\"compute.googleapis.com/instance/cpu/utilization\" resource.type=\"gce_instance\" metadata.system_labels.\"state\"=\"ACTIVE\"",
+        "trigger": {
+          "count": 1
+        },
+        "duration": "0s",
+        "comparison": "COMPARISON_GT",
+        "aggregations": [
+          {
+            "alignmentPeriod": "120s",
+            "perSeriesAligner": "ALIGN_MEAN"
+          }
+        ],
+        "thresholdValue": 0.9
+      }
+    },
+    "started_at": 1577840461,
+    "incident_id": "0.opqiw61fsv7p",
+    "policy_name": "Monitor-Project-Cluster",
+    "resource_id": "11223344",
+    "documentation": {
+      "links": [
+        {
+          "url": "https://myownpersonaldomain.com/playbook?name=${resource.name}",
+          "displayName": "Playbook"
+        }
+      ],
+      "content": "TEST ALERT\n\npolicy.name=projects/internal-project/alertPolicies/1234567890123456789\n\npolicy.display_name=Monitored-Project-NO-GROUPBY\n\ncondition.name=projects/nternal-project/alertPolicies/1234567890123456789/conditions/1234567890123456789\n\ncondition.display_name=VM Instance - CPU utilization [MAX]\n\nproject=internal-project\n\nresrouce.project=internal-project \n\nDONE\n",
+      "subject": "ALERT - No severity",
+      "mime_type": "text/markdown"
+    },
+    "resource_name": "internal-project gke-cluster-1-default-pool-e2df4cbd-dgp3",
+    "condition_name": "VM Instance - CPU utilization [MAX]",
+    "observed_value": "0.95",
+    "threshold_value": "0.9",
+    "policy_user_labels": {
+      "user-label-1": "important label",
+      "user-label-2": "another label"
+    },
+    "scoping_project_id": "internal-project",
+    "resource_display_name": "gke-cluster-1-default-pool-e2df4cbd-dgp3",
+    "scoping_project_number": 12345,
+    "resource_type_display_name": "VM Instance"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "",
+  "level": "INFO",
+  "summary": "This is the subject/summary of the notification from SNS",
+  "body": "This is the message body/summary of the notification from SNS",
+  "annotations": {
+    "sns.amazonaws.com/TopicArn": "arn:aws:sns:us-east-1:1234567890:AcmeCompany",
+    "sns.amazonaws.com/Timestamp": "2024-07-17T07:24:01.029Z",
+    "sns.amazonaws.com/MessageAttributes/ExampleStringAttribute": "ExampleValue",
+    "sns.amazonaws.com/SignatureVersion": "1",
+    "sns.amazonaws.com/Type": "Notification",
+    "sns.amazonaws.com/Signature": "12345examplesignature",
+    "sns.amazonaws.com/MessageAttributes/AnotherNumberAttribute": "1234",
+    "sns.amazonaws.com/SigningCertURL": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-12345examplecert.pem",
+    "sns.amazonaws.com/MessageAttributes/ExampleBinaryAttribute": "ZmFsc2U=",
+    "sns.amazonaws.com/MessageAttributes/ExampleStringArrayAttribute": "[\"ExampleValue1\", \"ExampleValue2\"]"
+  },
+  "idempotency_key": "f3da1149-e706-5099-8f29-4e5894d7d7dc",
+  "images": [],
+  "links": [
+    {
+      "href": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-12345examplecert.pem",
+      "text": "AWS SNS Signing Cert URL"
+    },
+    {
+      "href": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:1234567890:AcmeCompany:b6788449-25a1-42aa-b381-927497676e0e",
+      "text": "Unsubscribe URL for SNS Topic"
+    }
+  ],
+  "tags": [],
+  "attachments": [],
+  "received_at": "2024-11-08T00:16:08.000+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "value": "15 sec",
+  "source": "Conviva",
+  "version": "1.0.0",
+  "event_id": 1457888888,
+  "severity": "info",
+  "alert_time": "02:45 Jan 18, 1970 PST",
+  "root_cause": "iOS Native Player and iOS",
+  "metric_name": "Average Payload Time",
+  "account_name": "Test",
+  "alert_source": "AI Alert",
+  "custom_fields": {
+    "runbook_url": "http://test.com"
+  },
+  "diagnostic_report_url": "https://pulse.conviva.com/alerts/1457888888",
+  "cumulative_impacted_unique_devices": 1
+}

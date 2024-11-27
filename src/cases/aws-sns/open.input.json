@@ -1,0 +1,30 @@
+{
+  "Type": "Notification",
+  "MessageId": "f3da1149-e706-5099-8f29-4e5894d7d7dc",
+  "TopicArn": "arn:aws:sns:us-east-1:1234567890:AcmeCompany",
+  "Subject": "This is the subject/summary of the notification from SNS",
+  "Message": "This is the message body/summary of the notification from SNS",
+  "Timestamp": "2024-07-17T07:24:01.029Z",
+  "SignatureVersion": "1",
+  "Signature": "12345examplesignature",
+  "SigningCertURL": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-12345examplecert.pem",
+  "UnsubscribeURL": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:1234567890:AcmeCompany:b6788449-25a1-42aa-b381-927497676e0e",
+  "MessageAttributes": {
+    "ExampleBinaryAttribute": {
+      "Type": "Binary",
+      "Value": "ZmFsc2U="
+    },
+    "AnotherNumberAttribute": {
+      "Type": "Number",
+      "Value": "1234"
+    },
+    "ExampleStringAttribute": {
+      "Type": "String",
+      "Value": "ExampleValue"
+    },
+    "ExampleStringArrayAttribute": {
+      "Type": "String.Array",
+      "Value": "[\"ExampleValue1\", \"ExampleValue2\"]"
+    }
+  }
+}
