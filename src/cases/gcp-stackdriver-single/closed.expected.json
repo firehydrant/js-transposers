@@ -16,7 +16,6 @@
   "level": 0,
   "annotations": {
     "signals.firehydrant.com/notification-priority": "LOW",
-    "signals.firehydrant.com/source": "stackdriver-single",
     "cloud.google.com/condition_name": "VM Instance - CPU utilization [MAX]",
     "cloud.google.com/documentation_content": "TEST ALERT\n\npolicy.name=projects/internal-project/alertPolicies/1234567890123456789\n\npolicy.display_name=Monitored-Project-NO-GROUPBY\n\ncondition.name=projects/nternal-project/alertPolicies/1234567890123456789/conditions/1234567890123456789\n\ncondition.display_name=VM Instance - CPU utilization [MAX]\n\nproject=internal-project\n\nresrouce.project=internal-project \n\nDONE\n",
     "cloud.google.com/documentation_subject": "ALERT - No severity",
