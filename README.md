@@ -28,7 +28,7 @@ pnpm test
 
 On FireHydrant, the term "Transposer" and "Event Source" are used interchangeably. The repository is laid out like so:
 ```
-[14:12:47] vthanh:js-transposers git:(main) $ tree
+[14:12:47] johndoe:js-transposers git:(main) $ tree
 .
 ├── LICENSE
 ├── README.md
@@ -54,7 +54,7 @@ The most important points are that:
 
 ### Adding Test Cases
 
-1. First, add the Transposer and its test cases to `cases.json`. In this example, we'll add `alertmanager`:
+1. First, add the Transposer and its test cases to `cases.json`. Please place the transposer alphabetically in the list to make it easier to search/parse. In this example, we'll add `alertmanager`:
 ```json
 [
   {
