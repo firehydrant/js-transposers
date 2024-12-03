@@ -1,0 +1,22 @@
+[
+  {
+    "name": "aws-sns",
+    "cases": ["open", "confirm"]
+  },
+  {
+    "name": "conviva",
+    "cases": ["open"]
+  },
+  {
+    "name": "fastly",
+    "cases": ["open"]
+  },
+  {
+    "name": "gcp-stackdriver-single",
+    "cases": ["open", "closed"]
+  },
+  {
+    "name": "pd-v2",
+    "cases": ["open", "resolve"]
+  }
+]
