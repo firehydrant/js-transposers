@@ -16,6 +16,10 @@
     "cases": ["open", "closed"]
   },
   {
+    "name": "grafana",
+    "cases": ["open"]
+  },
+  {
     "name": "pd-v2",
     "cases": ["open", "resolve"]
   }
