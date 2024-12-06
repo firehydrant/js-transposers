@@ -102,8 +102,16 @@ function transpose(input) {
     }
   }
 
+  // GCP always tests with ID = 12345, which is problematic for FireHydrant
+  // because we dedupe based on the ID. So if users are testing, change
+  // '12345' to something else random
+  idempotency_key = payload?.incident.incident_id;
+  if (idempotency_key == "12345") {
+    idempotency_key = Math.random().toString();
+  }
+
   const signal = {
-    idempotency_key: payload?.incident.incident_id,
+    idempotency_key: idempotency_key,
     summary: `[${payload?.incident.severity || 'no severity'}] ${payload?.incident.policy_name}: ${payload?.incident.condition_name} on ${payload?.incident.resource_name}`,
     body: payload?.incident.summary,
     links: links,
