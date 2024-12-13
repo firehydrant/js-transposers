@@ -1,0 +1,10 @@
+{
+  "summary": "Alert from Receiver String",
+  "body": "Receiver String sent a webhook without any alerts or other information.",
+  "idempotency_key": "25f9e794323b453885f5181f1b624d0b",
+  "status": 0,
+  "links": [],
+  "annotations": {
+    "alertmanager/groupKey": "123456789"
+  }
+}

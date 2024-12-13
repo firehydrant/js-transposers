@@ -1,0 +1,25 @@
+{
+  "summary": "2 alerts from Receiver String",
+  "body": "This is a test alertmanager alert: This is a longer description of a test alertmanager alert\nThis is another test alertmanager alert: This is a longer description of another test alertmanager alert\n",
+  "links": [
+    {
+      "href": "https://test-alermanager.io/generator",
+      "text": "Generator URL - This is a test alertmanager alert"
+    },
+    {
+      "href": "https://test-alermanager.io/generator",
+      "text": "Generator URL - This is another test alertmanager alert"
+    }
+  ],
+  "idempotency_key": "25f9e794323b453885f5181f1b624d0b",
+  "annotations": {
+    "alertmanager/annotations-commonAnnotation1": "value1",
+    "alertmanager/annotations-commonAnnotation2": "value2",
+    "alertmanager/groupKey": "123456789",
+    "alertmanager/grouped-by-groupLabel1": "value1",
+    "alertmanager/grouped-by-groupLabel2": "value2",
+    "alertmanager/labels-commonLabel1": "value1",
+    "alertmanager/labels-commonLabel2": "value2"
+  },
+  "status": 0
+}

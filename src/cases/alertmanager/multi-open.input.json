@@ -1,0 +1,56 @@
+{
+  "version": "4",
+  "groupKey": "123456789",
+  "truncatedAlerts": 0,
+  "status": "firing",
+  "receiver": "Receiver String",
+  "groupLabels": {
+    "groupLabel1": "value1",
+    "groupLabel2": "value2"
+  },
+  "commonLabels": {
+    "commonLabel1": "value1",
+    "commonLabel2": "value2"
+  },
+  "commonAnnotations": {
+    "commonAnnotation1": "value1",
+    "commonAnnotation2": "value2"
+  },
+  "externalURL": "https://test-alermanager.io",
+  "alerts": [
+    {
+      "status": "firing",
+      "labels": {
+        "label1": "value1",
+        "label2": "value2"
+      },
+      "annotations": {
+        "summary": "This is a test alertmanager alert",
+        "description": "This is a longer description of a test alertmanager alert",
+        "annotation1": "value1",
+        "annotation2": "value2"
+      },
+      "startsAt": "2023-12-18T07:20:50.52Z",
+      "endsAt": "2023-12-18T07:20:50.52Z",
+      "generatorURL": "https://test-alermanager.io/generator",
+      "fingerprint": "28295wtbgwyrgb8731"
+    },
+    {
+      "status": "firing",
+      "labels": {
+        "label1": "value1",
+        "label2": "value2"
+      },
+      "annotations": {
+        "summary": "This is another test alertmanager alert",
+        "description": "This is a longer description of another test alertmanager alert",
+        "annotation1": "value1",
+        "annotation2": "value2"
+      },
+      "startsAt": "2023-12-18T07:20:50.52Z",
+      "endsAt": "2023-12-18T07:20:50.52Z",
+      "generatorURL": "https://test-alermanager.io/generator",
+      "fingerprint": "28295wtbgwyrgb8731"
+    }
+  ]
+}
