@@ -1,0 +1,10 @@
+{
+  "version": "4",
+  "groupKey": "123456789",
+  "truncatedAlerts": 0,
+  "status": "firing",
+  "receiver": "Receiver String",
+  "externalURL": "https://test-alermanager.io",
+  "alerts": [
+  ]
+}
