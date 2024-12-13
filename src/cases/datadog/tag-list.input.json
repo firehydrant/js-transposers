@@ -1,0 +1,26 @@
+{
+  "unique_key": "18913k2b63ifs",
+  "level": "warning",
+  "summary": "[P2] [Triggered] [TEST] Test Monitor",
+  "body": "This is the content of the monitor.",
+  "annotations": {},
+  "images": [
+    {
+      "src": "null",
+      "alt": "This should not come through"
+    },
+    {
+      "src": "https://example.com/pic.png",
+      "alt": "Snapshot from [P2] [Triggered] [TEST] Signals Test Monitor"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://datadoghq.com/event/event?id=238472398472582",
+      "text": "Datadog Monitor"
+    }
+  ],
+  "tags": ["monitor", "name:myService", "role:computing-node", "region:us-west2"],
+  "status": "Recovered",
+  "received_at": "2023-11-08T21:56:54.000+00:00"
+}
