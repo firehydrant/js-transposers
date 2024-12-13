@@ -1,0 +1,24 @@
+{
+  "summary": "[P2] [Triggered] [TEST] Test Monitor",
+  "body": "This is the content of the monitor.",
+  "level": 1,
+  "links": [
+    {
+      "href": "https://datadoghq.com/event/event?id=238472398472582",
+      "text": "Datadog Monitor"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://example.com/pic.png",
+      "alt": "Snapshot from [P2] [Triggered] [TEST] Signals Test Monitor"
+    }
+  ],
+  "tags": ["monitor", "name:myService", "role:computing-node", "region:us-west2"],
+  "idempotency_key": "18913k2b63ifs",
+  "status": 0,
+  "annotations": {
+    "datadog/priority": "P2",
+    "signals.firehydrant.com/notification-priority": "HIGH"
+  }
+}

@@ -8,6 +8,10 @@
     "cases": ["open"]
   },
   {
+    "name": "datadog",
+    "cases": ["open-high", "open-low", "tag-list", "tag-none", "level-unknown"]
+  },
+  {
     "name": "fastly",
     "cases": ["open"]
   },
