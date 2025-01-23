@@ -1,5 +1,9 @@
 [
   {
+    "name": "alertmanager",
+    "cases": ["single-open", "multi-open", "empty-open"]
+  },
+  {
     "name": "aws-sns",
     "cases": ["open", "confirm"]
   },
