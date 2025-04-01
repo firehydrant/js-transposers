@@ -1,0 +1,43 @@
+{
+  "notifier": "test webhook",
+  "status": "firing",
+  "alerts": [
+    {
+      "status": "firing",
+      "labels": {
+        "alertname": "test alert",
+        "component": "remote_write",
+        "instance": "localhost:3030",
+        "job": "collector_binary",
+        "severity": "critical",
+        "pod_name": "prom-74cbfb46c9-2ftk9"
+      },
+      "annotations": {
+        "ruleid": "32bb3fbe-c10b-44bb-a4c0-3d053f4a08cd",
+        "monitor_slug": "test-monitor",
+        "notification_policy_slug": "test-policy"
+      },
+      "startsAt": "2020-05-19T13:57:21.68227886Z",
+      "endsAt": "0001-01-01T00:00:00Z",
+      "fingerprint": "7424223989b20025"
+    }
+  ],
+  "groupLabels": {
+    "alertname": "test alert",
+    "severity": "critical"
+  },
+  "commonLabels": {
+    "alertname": "test alert",
+    "component": "remote_write",
+    "instance": "localhost:3030",
+    "job": "collector_binary",
+    "severity": "critical",
+    "pod_name": "prom-74cbfb46c9-2ftk9"
+  },
+  "commonAnnotations": {
+    "ruleid": "32bb3fbe-c10b-44bb-a4c0-3d053f4a08cd",
+    "monitor_slug": "test-monitor",
+    "notification_policy_slug": "test-policy"
+  },
+  "version": "4"
+}
