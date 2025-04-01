@@ -1,0 +1,21 @@
+{
+  "summary": "test alert",
+  "body": "Alert from Chronosphere via test-policy: test alert",
+  "idempotency_key": "7424223989b20025",
+  "annotations": {
+    "chronosphere/annotation-monitor_slug": "test-monitor",
+    "chronosphere/annotation-notification_policy_slug": "test-policy",
+    "chronosphere/annotation-ruleid": "32bb3fbe-c10b-44bb-a4c0-3d053f4a08cd",
+    "chronosphere/commonlabel-alertname": "test alert",
+    "chronosphere/commonlabel-component": "remote_write",
+    "chronosphere/commonlabel-instance": "localhost:3030",
+    "chronosphere/commonlabel-job": "collector_binary",
+    "chronosphere/commonlabel-pod_name": "prom-74cbfb46c9-2ftk9",
+    "chronosphere/commonlabel-severity": "critical",
+    "chronosphere/grouplabel-alertname": "test alert",
+    "chronosphere/grouplabel-severity": "critical",
+    "chronosphere/notifier": "test webhook",
+    "chronosphere/status": "firing"
+  },
+  "status": 0
+}

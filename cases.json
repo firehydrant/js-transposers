@@ -8,6 +8,10 @@
     "cases": ["open", "confirm"]
   },
   {
+    "name": "chronosphere",
+    "cases": ["open"]
+  },
+  {
     "name": "conviva",
     "cases": ["open"]
   },
