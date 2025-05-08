@@ -32,33 +32,8 @@ function importanceToLevel(importance) {
  * Check for these annotation keys and insert if available
  */
 function getAnnotations(payload) {
-  let optionalKeys = [];
-
-  switch (payload.check_type) {
-    case 'HTTP':
-      optionalKeys.push('basic_auth', 'encryption', 'full_url', 'header', 'hostname', 'ipv6', 'port', 'url');
-      break;
-    case 'HTTP_CUSTOM':
-      optionalKeys.push('basic_auth', 'encryption', 'full_url', 'hostname', 'ipv6', 'port', 'url');
-      break;
-    case 'PORT_TCP':
-      optionalKeys.push('basic_auth', 'hostname', 'ipv6', 'port');
-      break;
-    case 'PING':
-      optionalKeys.push('basic_auth', 'hostname', 'ipv6');
-      break;
-    case 'DNS':
-      optionalKeys.push('basic_auth', 'expected_ip', 'hostname', 'ipv6', 'nameserver');
-      break;
-    case 'UDP':
-      optionalKeys.push('basic_auth', 'expect', 'hostname', 'ipv6', 'port', 'send');
-      break;
-    case 'SMTP':
-    case 'POP3':
-    case 'IMAP':
-      optionalKeys.push('basic_auth', 'encryption', 'hostname', 'ipv6', 'port');
-      break;
-  }
+  // Include all optional keys that may or may not exist based on type of check
+  const optionalKeys = ['basic_auth', 'encryption', 'expect', 'expected_ip', 'full_url', 'header', 'hostname', 'ipv6', 'nameserver', 'port', 'send', 'url'];
 
   const optionalAnnotations = optionalKeys.reduce((acc, key) => {
     // Only add the key if it exists in check_params
