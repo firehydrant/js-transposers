@@ -1,0 +1,25 @@
+{
+  "summary": "[Recovery] Error message",
+  "body": "No long description provided",
+  "level": 2,
+  "links": [],
+  "images": [],
+  "tags": ["example_tag"],
+  "annotations": {
+    "signals.firehydrant.com/notification-priority": "HIGH",
+    "check_id": "12345",
+    "check_name": "Name of transaction check",
+    "check_type": "TRANSACTION",
+    "current_state": "SUCCESS",
+    "encryption": "true",
+    "importance_level": "HIGH",
+    "port": "443",
+    "previous_state": "FAILING",
+    "state_changed_timestamp": "1451610061",
+    "state_changed_utc_time": "2016-01-01T01:01:01",
+    "url": "https://www.example.com/"
+  },
+  "idempotency_key": "12345",
+  "status": 1
+}
+

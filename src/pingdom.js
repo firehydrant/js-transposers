@@ -75,7 +75,7 @@ function transpose(input) {
 
   return {
     idempotency_key: String(payload?.check_id),
-    summary: payload?.description || `Pingdom Alert for ${payload.check_name}`,
+    summary: (payload?.current_state === 'SUCCESS' || payload?.current_state === 'UP' ? '[Recovery] ' : '') + payload?.description || `Pingdom Alert for ${payload.check_name}`,
     body: payload?.long_description || 'No long description provided',
     images: [],
     level: importanceToLevel(payload.importance_level),

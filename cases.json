@@ -37,6 +37,6 @@
   },
   {
     "name": "pingdom",
-    "cases": ["open_http", "open_http_custom", "open_tcp", "open_ping", "open_dns", "open_udp", "open_smtp"]
+    "cases": ["open_http", "open_http_custom", "open_tcp", "open_ping", "open_dns", "open_udp", "open_smtp", "close_transaction_check"]
   }
 ]
