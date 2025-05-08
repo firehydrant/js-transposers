@@ -34,5 +34,9 @@
   {
     "name": "pd-v2",
     "cases": ["open", "resolve"]
+  },
+  {
+    "name": "pingdom",
+    "cases": ["open_http", "open_http_custom", "open_tcp", "open_ping", "open_dns", "open_udp", "open_smtp"]
   }
 ]

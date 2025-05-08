@@ -1,0 +1,32 @@
+{
+  "summary": "Short error message",
+  "body": "Long error message",
+  "level": 2,
+  "links": [
+    {
+      "href": "www.example.com",
+      "alt": "Check Host"
+    }
+  ],
+  "images": [],
+  "tags": ["example_tag"],
+  "annotations": {
+    "signals.firehydrant.com/notification-priority": "HIGH",
+    "basic_auth": "false",
+    "check_id": "12345",
+    "check_name": "Name of UDP check",
+    "check_type": "UDP",
+    "current_state": "DOWN",
+    "expect": "string to expect",
+    "hostname": "www.example.com",
+    "importance_level": "HIGH",
+    "ipv6": "false",
+    "port": "80",
+    "previous_state": "UP",
+    "send": "string to send",
+    "state_changed_timestamp": "1451610061",
+    "state_changed_utc_time": "2016-01-01T01:01:01"
+  },
+  "idempotency_key": "12345",
+  "status": 0
+}

@@ -1,0 +1,34 @@
+{
+  "summary": "Short error message",
+  "body": "Long error message",
+  "level": 2,
+  "links": [
+    {
+      "href": "www.example.com",
+      "alt": "Check Host"
+    }
+  ],
+  "images": [],
+  "tags": ["example_tag"],
+  "annotations": {
+    "signals.firehydrant.com/notification-priority": "HIGH",
+    "basic_auth": "false",
+    "check_id": "12345",
+    "check_name": "Name of HTTP check",
+    "check_type": "HTTP",
+    "current_state": "DOWN",
+    "encryption": "true",
+    "full_url": "https://www.example.com/path",
+    "header": "User-Agent:Pingdom.com_bot",
+    "hostname": "www.example.com",
+    "importance_level": "HIGH",
+    "ipv6": "false",
+    "port": "443",
+    "previous_state": "UP",
+    "state_changed_timestamp": "1451610061",
+    "state_changed_utc_time": "2016-01-01T01:01:01",
+    "url": "/path"
+  },
+  "idempotency_key": "12345",
+  "status": 0
+}
