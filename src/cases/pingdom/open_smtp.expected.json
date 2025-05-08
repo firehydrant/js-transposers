@@ -1,0 +1,31 @@
+{
+  "summary": "Short error message",
+  "body": "Long error message",
+  "level": 2,
+  "links": [
+    {
+      "href": "www.example.com",
+      "alt": "Check Host"
+    }
+  ],
+  "images": [],
+  "tags": ["example_tag"],
+  "annotations": {
+    "signals.firehydrant.com/notification-priority": "HIGH",
+    "basic_auth": "false",
+    "check_id": "123456",
+    "check_name": "Name of SMTP check",
+    "check_type": "SMTP",
+    "current_state": "DOWN",
+    "encryption": "false",
+    "hostname": "www.example.com",
+    "importance_level": "HIGH",
+    "ipv6": "false",
+    "port": "25",
+    "previous_state": "UP",
+    "state_changed_timestamp": "1451610061",
+    "state_changed_utc_time": "2016-01-01T01:01:01"
+  },
+  "idempotency_key": "123456",
+  "status": 0
+}
